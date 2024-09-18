@@ -10,7 +10,7 @@ echo Turning your DreamPi into RandnetPi...
 
 echo - Updating dnsmasq config...
 # Use a public DNS
-sed -i -e 's/server=129.159.86.248/server=8.8.8.8/' /etc/dnsmasq.conf
+sed -i -e 's/server=129.159.86.247/server=8.8.8.8/' /etc/dnsmasq.conf
 systemctl restart dnsmasq
 sleep 2
 
